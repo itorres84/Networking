@@ -4,6 +4,11 @@ public struct Networking {
     public init() {}
 
     public func fetchData(from url: String) -> String {
-        return "Data from \(url)"
+        return "fetch data from \(url)"
     }
+    
+    public func DowlaodData(from url: String) -> String {
+        return "Dowloand data from \(url)"
+    }
+    
 }
